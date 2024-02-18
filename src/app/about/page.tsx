@@ -113,7 +113,7 @@ const About: NextPage = () => {
                             University of Michigan
                           </h4>
                           <p className="timeline-text">
-                          Bachelor's Degree: English Language and Literature/Letters
+                          Bachelors Degree: English Language and Literature/Letters
                           </p>
                         </div>
                         {/* Timeline Item end */}
