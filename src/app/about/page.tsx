@@ -15,15 +15,12 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Your name a <span>Your Expertise</span>
+                    Jonathan D. Cohen Ph.D
                   </h2>
                   <p>
-                    Hi! My name is Your Name. I am a your expertise, and I am
-                    very passionate and dedicated to my work. With 1 years
-                    experience as a your expertise, I have acquired the skills and
-                    knowledge necessary to make your project a success. I enjoy
-                    every step of the design process, from discussion and
-                    collaboration.
+                    - Instructor <br></br>
+                    - Lead instructional designer <br></br>
+                    - Lead LMS developer <br></br>
                   </p>
                 </div>
               </div>
@@ -32,34 +29,30 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="info-item padd-15">
                       <p>
-                        Website : <span>www.urfolio.vercel.app</span>
+                        Website : <span>https://inventingtolearn.org/</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Email : <span>your@email.com</span>
+                        Email : <span>jcohen@gsu.edu</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Degree : <span>SSC</span>
+                        Degree : <span>Ph.D</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Phone : <span>+99 ********</span>
+                        Phone : <span>+1 000-000-0000</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        City : <span>Your City</span>
+                        City : <span>Atlanta</span>
                       </p>
                     </div>
-                    <div className="info-item padd-15">
-                      <p>
-                        Freelance : <span>Available</span>
-                      </p>
-                    </div>
+                    
                   </div>
                   <div className="row">
                     <div className="buttons padd-15">
@@ -70,48 +63,11 @@ const About: NextPage = () => {
                       >
                         Download CV
                       </a>
-                      <a
-                        href="#contact"
-                        data-section-index={0}
-                        className="btn hire-me"
-                      >
-                        Hire Me
-                      </a>
+                      
                     </div>
                   </div>
                 </div>
-                <div className="skills padd-15">
-                  <div className="row">
-                    <div className="skill-item padd-15">
-                      <h5>Html5</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "80%" }} />
-                        <div className="skill-percent">80%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Css3</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "60%" }} />
-                        <div className="skill-percent">60%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Javascript</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "50%" }} />
-                        <div className="skill-percent">50%</div>
-                      </div>
-                    </div>
-                    <div className="skill-item padd-15">
-                      <h5>Bootstrap</h5>
-                      <div className="progress">
-                        <div className="progress-in" style={{ width: "70%" }} />
-                        <div className="skill-percent">70%</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
               <div className="row">
                 <div className="education padd-15">
@@ -123,15 +79,13 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 2010 - 2014
                           </h6>
                           <h4 className="timeline-title">
-                            Self Taught (Programming)
+                            University of Virginia
                           </h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Programming. I have
-                            learn Html, Css, Sass, JavaScript, Bootstrap. Now I
-                            am a Professional Web Designer..
+                          Doctor of Philosophy (Ph.D.): Educational/Instructional Technology
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -139,15 +93,13 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
+                            <i className="fa fa-calendar" /> 1999-2001
                           </h6>
                           <h4 className="timeline-title">
-                            Diploma in Civil Engineering
+                          University of Maryland College Park
                           </h4>
                           <p className="timeline-text">
-                            From 2019 I started my journey to be a Civil
-                            Engineer on Shyamoli Ideal Polytechnic Institute. It
-                            still Running to Present.
+                          Master of Arts (M.A.): English Language and Literature/Letters
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -155,15 +107,13 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2014 to 2019
+                            <i className="fa fa-calendar" />1993-1997
                           </h6>
                           <h4 className="timeline-title">
-                            Secondary School Certificate
+                            University of Michigan
                           </h4>
                           <p className="timeline-text">
-                            In 2019 I passed SSC Exam from Science Group with
-                            GPA- 4.56. My school name was Patgram Anath Bondhu
-                            Govt. High School.
+                          Bachelor's Degree: English Language and Literature/Letters
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -180,13 +130,11 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
+                            <i className="fa fa-calendar" /> 2019 - Present
                           </h6>
-                          <h4 className="timeline-title">Graphics Design</h4>
+                          <h4 className="timeline-title">Associate Professor - GSU</h4>
                           <p className="timeline-text">
-                            From 2018 I am woking on Graphics Design. The
-                            software I use Photoshop, Illustrator for Graphics
-                            design.
+                          Associate professor in the Learning Technologies program of the Department of Learning Sciences.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -194,29 +142,16 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 2012-2018
                           </h6>
-                          <h4 className="timeline-title">Web Design</h4>
+                          <h4 className="timeline-title">Assistant Professor</h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Coding. I have learn
-                            Html, Css, Sass, JavaScript, Bootstrap. Now I am a
-                            Professional Web Designer..
+                            Assistant professor in the the Learning Technologies Division of the College of Education.
                           </p>
                         </div>
                         {/* Timeline Item end */}
                         {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
-                          </h6>
-                          <h4 className="timeline-title">Wordpress</h4>
-                          <p className="timeline-text">
-                            Since 2020 I started to learn Wordpress. I can
-                            install, Customize, &amp; fix bug on wordpress.{" "}
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
+                        
                       </div>
                     </div>
                   </div>
