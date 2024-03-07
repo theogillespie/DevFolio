@@ -120,7 +120,7 @@ const About: NextPage = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div>Your
                 <div className="experience padd-15">
                   <h3 className="title">Experience</h3>
                   <div className="row">
